@@ -1,0 +1,12 @@
+In this first episode you will learn 
+
+####INCEPTION
+
+1. How to create a basic HTML page
+2. How to use Javascript to create an element and append it to the HTML element
+3. How to include REACT using CDN links
+4. How to use REACT to bind elements to the HTML root div
+5. React.createElement & ReactDOM.createRoot & root.render
+6. React.createElement( HTML element to be added, {attributes to be added}, children to be added)
+7. Nesting HTML elements inside createElement 
+
