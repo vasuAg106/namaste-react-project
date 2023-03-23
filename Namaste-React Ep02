@@ -1,0 +1,45 @@
+Igniting our app
+
+npm
+package.json
+package-lock.json
+node-modules
+
+
+* React is fast, it does make our application fast but it is not the only thing that improves the speed. There are lot of other packages, libraries along with React which makes the app faster.
+
+* NPM - this is not node package manager. It doesnt have a full form. 
+It manages packages but doesnt stands for node package manager. It is a standard repository for the packages/library. 
+npmjs.com
+
+Adding NPM to project
+
+-> npm init 
+A package.json file is created, it is the configuration for NPM. It keeps are track of all the dependencies, packages our code is using.
+
+Now we will install bundler (webpack, parcel), the most important package in our project. Before pushing the code to production all the files like HTML, CSS, JS need to be compressed, minified and bundled together. 
+
+We are using Parcel, it is easy to configure.
+
+Parcel comes as a node package.
+
+-> npm install -D parcel
+
+There are two type of dependencies we can install, one is the dev dependencies and one are the normal dependencies.
+Dev dependencies - are required while app development
+Normal dependencies - are used in production also
+
+parcel : "^2.8.3" vs "~2.8.3"
+If there is a minor update, like 2.8.4 caret will automatically update to it but if there is a major update like 3.1 it will not update. Using ~ will automatically update the major version also. It is always advisable to use ^ 
+
+package-lock.json
+Keep a track of exact version which is installed. Package.json keeps approx version with ^ or ~ but package-lock.json will have exact version details.
+Package-lock.json also keeps are track of what all versions are their on my local will be available on production as well.
+
+node-modules folder - has all the code which npm has fetched. It contains actual data which our project needs.
+
+When we install parcel, so many other dependencies are also installed because parcel cannot work alone. It is like a beast, it needs lots of other dependencies to help it work. These are transformative dependencies which are installed along with parcel.
+
+Every dependency has its own package.json and list of dependencies.
+
+If you have your package.json and package-lock.json you can recreate all the node_modules data just use -> npm install

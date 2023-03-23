@@ -1,0 +1,26 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Learning react packages",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasuAg106/namaste-react-project.git"
+  },
+  "keywords": [
+    "react",
+    "react-dom"
+  ],
+  "author": "Vasundhra Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasuAg106/namaste-react-project/issues"
+  },
+  "homepage": "https://github.com/vasuAg106/namaste-react-project#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
