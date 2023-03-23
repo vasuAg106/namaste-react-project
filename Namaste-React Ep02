@@ -43,3 +43,26 @@ When we install parcel, so many other dependencies are also installed because pa
 Every dependency has its own package.json and list of dependencies.
 
 If you have your package.json and package-lock.json you can recreate all the node_modules data just use -> npm install
+
+-> npx parcel index.html
+
+for executing a package you use npx
+for installing you use npm 
+
+#parcel
+ - Dev build
+ - Local server
+ - HMR - Hot module replacement - automatically updates the server with the changes
+ - File watching algorithm - written in C++
+ - parcel is caching things for you - faster builds - faster development experience
+ - Image optimisation
+ - Minification
+ - Bundling
+ - Compress
+ - Consistent Hashing
+ - Code splitting 
+ - Differential Bundling - to support older browsers
+ - Diagnostics - give better suggestions
+ - Host your app on HTTPs
+ - Tree Shaking - remove unused code for you
+ - Different build for dev and prod
